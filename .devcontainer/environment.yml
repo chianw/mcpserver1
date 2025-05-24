@@ -1,0 +1,14 @@
+name: mcp
+channels:
+  - defaults
+dependencies:
+  - python=3.12.7
+  - pip
+  - ipython
+  - jupyterlab
+  - numpy
+  - pandas
+  - requests
+  - pydantic
+  - pip:
+      - mcp  # Replace with actual SDK name or source
