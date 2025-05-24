@@ -12,3 +12,4 @@ dependencies:
   - pydantic
   - pip:
       - mcp  # Replace with actual SDK name or source
+      - mcp[cli]
