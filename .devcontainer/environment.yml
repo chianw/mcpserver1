@@ -1,8 +1,9 @@
-name: mcp
+name: base
 channels:
-  - pkgs/main
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
 dependencies:
-  - python=3.12.7
   - pip
   - ipython
   - jupyterlab
