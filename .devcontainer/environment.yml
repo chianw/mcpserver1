@@ -1,6 +1,6 @@
 name: mcp
 channels:
-  - defaults
+  - pkgs/main
 dependencies:
   - python=3.12.7
   - pip
